@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maps.View.Tabbed.RestaurantPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Tulipan_s_Restaurant_Pizzeria" HorizontalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+                <ImageButton Source="tienda.jpeg" CornerRadius="90"  Margin="60,0,60,0" />
+                    <Label Text="DIETAS DE COMIDAD Y DIRECCION" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="Black" />
+                <Label Text="Para vegetarianos , Opciones veganas, Opciones sin gluten - +51 931 547 591 - Jr. Lima 394 Inside the: La Casona Parodi, Puno 51 Peru" Margin="30,0,30,0"/>
+                <Label Text="Mojsa Restaurante Puno" HorizontalTextAlignment="Center" FontSize="Large" TextColor="Black" />
+                    <ImageButton Source="tiendaaa.jpg" CornerRadius="90" Margin="60,0,60,0"/>
+                <Label Text="Mojsa Restaurante Puno" HorizontalTextAlignment="Center" FontSize="Large" TextColor="Black" />
+                <Label Text="TIPOS DE COMIDA , DIETAS ESPECIAL Y DIRECCION" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="Black" />
+                <Label Text="Peruana, Cafe , Internacional - Apto para vegetarianos , OPciones veganas , Opciones sin gluten - +51 513 631 821 - Jr. Lima 635 2do Piso Plaza de Armas , Puno " Margin="30,0,30,0"/>
+                
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

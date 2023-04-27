@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:locals="clr-namespace:Maps.View.Tabbed"
+
+            x:Class="Maps.View.Tabbed.ContainerTabbedPage"
+            Title="Elige"
+            BarTextColor="Black" BarBackgroundColor="#157545"   SelectedTabColor="Black" UnselectedTabColor="White"
+            >
+
+    <locals:PageOne Title="Elige tu lugar" IconImageSource="Icon_TodoList" />
+    <locals:PageTwo Title="Metodos de pago" IconImageSource="Icon_Transfer" />
+
+</TabbedPage>

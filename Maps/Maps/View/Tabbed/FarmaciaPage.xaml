@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maps.View.Tabbed.FarmaciaPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="MI FARMA" HorizontalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+                <ImageButton Source="farmaciaa.png" CornerRadius="90"  Margin="60,0,60,0" />
+                <Label Text="hORARIOS DE ATENCION Y DIRECCION" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="Black" />
+                <Label Text="de 9am a 9pm - Av.El sol N° 1011 ,Puno 21001" Margin="30,0,30,0"/>
+               
+                <Label Text="INKA FARMA" HorizontalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+                <ImageButton Source="farmaciaaa.jpg" CornerRadius="90" Margin="60,0,60,0"/>
+                <Label Text="HORARIOS DE ATENCION Y DIRECCION" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="Black" />
+                <Label Text="de 8am a 9pm - Jr. Los Incas 364 , Puno" Margin="30,0,30,0"/>
+                
+                
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

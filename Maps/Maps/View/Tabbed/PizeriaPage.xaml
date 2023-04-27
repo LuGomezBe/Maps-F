@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maps.View.Tabbed.PizeriaPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Pizza e Pasta" HorizontalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+                <ImageButton Source="pizaa.jpg" CornerRadius="90" Margin="60,0,60,0"/>
+                <Label Text="TIPOS DE COMIDA Y DIETAS ESPECIALES" Margin="30,0,30,0" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="Black" />
+                <Label Text="Italiana , Pizzeria - Apto para vegetarianos - Jr Arequipa N° 320 a veinte metros del parque pino , Puno - +51 51365434"  Margin="30,0,30,0" />
+                <Label Text="PIZZERIA DEL BUHO" HorizontalTextAlignment="Center" FontSize="Large" TextColor="Black"/>
+                <ImageButton Source="pizaaa.jpg" CornerRadius="90" Margin="60,0,60,0"/>
+                <Label Text="TIPOS DE COMIDA Y DIETAS ESPECIALES" Margin="30,0,30,0" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="Black" />
+                <Label Text="Italiana ,pizzeria - Apto para vegetarianos - Jr Libertad 240 Unico local , Puno - +51 356223" Margin="30,0,30,0" />
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

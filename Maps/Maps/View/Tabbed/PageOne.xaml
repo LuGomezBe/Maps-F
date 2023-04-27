@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Maps.View.Tabbed.PageOne" >
+    
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout HorizontalOptions="Center"  >
+            
+
+            <Label Text="UBICACIONES" BackgroundColor="Aqua"  TextColor="White" FontSize="Large" HorizontalTextAlignment="Center" />
+            
+                <Label Text="RESTAURANTE" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                <ImageButton Source="Restaurant.jpeg" CornerRadius="90"  Clicked="ImageButton_Clicked" Margin="60,0,60,0" />
+                <Label Text="FARMACIAS" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                <ImageButton Source="farmacia.jpg" CornerRadius="90" Clicked="ImageButton_Clicked_1" Margin="60,0,60,0"/>
+                <Label Text="PIZERRIAS" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                <ImageButton Source="pizza.jpg" CornerRadius="90" Clicked="ImageButton_Clicked_2" Margin="60,0,60,0" />
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+    
+</ContentPage>
